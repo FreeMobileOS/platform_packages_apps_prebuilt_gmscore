@@ -36,12 +36,3 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
 LOCAL_REQUIRED_MODULES := privapp-permissions-com.google.android.gms.xml
 include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := GmsCore 
-LOCAL_SRC_FILES := gmscore.xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/default-permissions
-include $(BUILD_PREBUILT)
-

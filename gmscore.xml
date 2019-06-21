@@ -1,9 +1,0 @@
-<!-- gmscore can be trusted and is not very useful without
-     the permissions granted here...
-     The ultra-paranoid can still revoke the permissions.
--->
-<exceptions>
-	<exception package="com.google.android.gms">
-		<permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="true" />
-	</exception>
-</exceptions>
